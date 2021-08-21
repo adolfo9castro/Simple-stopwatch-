@@ -80,7 +80,7 @@ const resetFunction = () => {
  */
 const init = () => {
     document.querySelector('.milisecons').innerHTML = milisecons < 10 ? `0${milisecons++}` : milisecons++
-    if (milisecons > 99) {
+    if (milisecons > 100) {
         milisecons = 0
         document.querySelector('.milisecons').innerHTML = milisecons < 10 ? `0${milisecons++}` : milisecons++
         document.querySelector('.secons').innerHTML = secons < 10 ? `0${secons++}` : secons++
