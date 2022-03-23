@@ -2,6 +2,11 @@
  * @author Adolfo Castro <github.com/adolfo9castro/>
  */
 
+/** Get configuration's module
+* @module
+*/
+import config from "./config.js";
+
 /** Get the app DOM
 * @constant
 */
